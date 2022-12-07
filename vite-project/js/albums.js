@@ -1,4 +1,4 @@
-music = [
+export const music = [
   {
     title: `In the Aeroplane Over the Sea`,
     artist: `Neutral Milk Hotel`,
@@ -67,5 +67,50 @@ music = [
       `industrial rock`,
     ],
     ten: false,
+  },
+  {
+    title: `Pet Sounds`,
+    artist: `The Beach Boys`,
+    year: 1966,
+    length: `35:57`,
+    cover: `https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/PetSoundsCover.jpg/220px-PetSoundsCover.jpg`,
+    genre: [`progressive pop`, `chamber pop`, `psychedelic pop`, `art rock`],
+    ten: true,
+  },
+  {
+    title: `The Queen Is Dead`,
+    artist: `The Smiths`,
+    year: 1986,
+    length: `36:48`,
+    cover: `https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/The-Queen-is-Dead-cover.png/220px-The-Queen-is-Dead-cover.png`,
+    genre: [`idnie pop`, `alternative rock`, `indie rock`, `post-punk`],
+    ten: true,
+  },
+  {
+    title: `IGOR`,
+    artist: `Tyler, the Creator`,
+    year: 2019,
+    length: `39:43`,
+    cover: `https://upload.wikimedia.org/wikipedia/en/5/51/Igor_-_Tyler%2C_the_Creator.jpg`,
+    genre: [`hip hop`, `funk`, `R&B`, `neo soul`],
+    ten: false,
+  },
+  {
+    title: `Entertainment!`,
+    artist: `Gang of Four`,
+    year: 1979,
+    length: `39:53`,
+    cover: `https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Entertainment%21.jpg/220px-Entertainment%21.jpg`,
+    genre: [`post-punk`, `dance-punk`, `art punk`],
+    ten: false,
+  },
+  {
+    title: `Spiderland`,
+    artist: `Slint`,
+    year: 1991,
+    length: `39:31`,
+    cover: `https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Slint_-_Spiderland.jpg/220px-Slint_-_Spiderland.jpg`,
+    genre: [`post-hardcore`, `post-rock`, `math rock`],
+    ten: true,
   },
 ];
