@@ -1,21 +1,14 @@
 import "../styles/style.css";
-import javascriptLogo from "../javascript.svg";
-import { music } from "../js/albums";
+import { music } from "../js/albums.js";
+import { DOM } from "../js/DOMMY.js";
 
 document.querySelector("#app").innerHTML = `
   <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-      <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
-    </a>
-    <h1>RAHHHHHHH!!</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-    </div>
-    <p class="read-the-docs">
-      Click on the Vite logo to learn more
-    </p>
+  <img src="${DOM.cover}" alt="This is the music">
+  <p>This is ${DOM.title} by ${DOM.artist}. It was released in the year ${DOM.year} and it is ${DOM.lengthM} minutes long and ${DOM.lengthS} seconds long. These are the album's genres: ${DOM.genre}.</p>
   </div>
 `;
+
+music
+  .filter((album) => album.year > 1999)
+  .forEach((album) => console.log(album.title));
