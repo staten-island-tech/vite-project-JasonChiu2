@@ -5,6 +5,5 @@ export const DOM = {
   artist: music.artist,
   year: music.year,
   cover: music.cover,
-  lengthM: music.lengthM,
-  lengthS: music.lengthS,
+  runtime: music.runtime,
 };
