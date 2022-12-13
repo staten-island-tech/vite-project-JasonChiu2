@@ -9,7 +9,7 @@ function insert() {
   let runtime = DOM.runtime.value;
   let cover = DOM.cover.value;
   let genre = DOM.genre.value;
-  DOM.app.insertAdjacentElement(
+  DOM.app.insertAdjacentHTML(
     "afterbegin",
     `
     <div class="card">
@@ -20,4 +20,8 @@ function insert() {
   );
 }
 
-music.forEach((album) => console.log(album.title));
+music
+  .filter((album) => album.year >= 2000)
+  .forEach((album) => console.log(album.title, album.year));
+
+music.forEach((album) => console.log(album.title, album.genre));

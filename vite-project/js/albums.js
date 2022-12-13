@@ -83,7 +83,7 @@ export const music = [
     year: 1986,
     runtime: `36:48`,
     cover: `https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/The-Queen-is-Dead-cover.png/220px-The-Queen-is-Dead-cover.png`,
-    genre: [`idnie pop`, `alternative rock`, `indie rock`, `post-punk`],
+    genre: [`indie pop`, `alternative rock`, `indie rock`, `post-punk`],
     ten: true,
   },
   {

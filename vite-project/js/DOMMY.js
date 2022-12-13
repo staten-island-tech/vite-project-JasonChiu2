@@ -8,4 +8,5 @@ export const DOM = {
   runtime: document.querySelectorAll(`.description`),
   genre: document.querySelectorAll(`.description`),
   app: document.querySelector(`#app`),
+  button: document.querySelector(`.start`),
 };
