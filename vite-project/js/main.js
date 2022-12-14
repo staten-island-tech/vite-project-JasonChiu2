@@ -20,8 +20,4 @@ function insert() {
   );
 }
 
-music
-  .filter((album) => album.year >= 2000)
-  .forEach((album) => console.log(album.title, album.year));
-
-music.forEach((album) => console.log(album.title, album.genre));
+music.forEach((album) => console.log(album.title, album.runtime));
