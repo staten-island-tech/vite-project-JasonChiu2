@@ -20,8 +20,10 @@
 
 .header {
   background-color: var(--primary);
+  text-align: center;
 }
 
 .options {
   background-color: var(--secondary);
+  text-align: center;
 }
