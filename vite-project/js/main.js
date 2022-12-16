@@ -2,6 +2,22 @@ import "../styles/style.css";
 import { music } from "../js/albums.js";
 import { DOM } from "../js/DOMMY.js";
 
+document.querySelector(`.change`).addEventListener("click", function () {
+  if (document.body.classList.contains("cool")) {
+    document.body.classList.add("warm");
+    document.body.classList.remove("cool");
+  } else {
+    document.body.classList.add("cool");
+    document.body.classList.remove("warm");
+  }
+});
+
+document
+  .querySelector(".options-button")
+  .addEventListener("click", function () {
+    insert();
+  });
+
 function insert() {
   let title = DOM.title.value;
   let artist = DOM.artist.value;
