@@ -28,7 +28,7 @@
   text-align: center;
   display: flex;
   justify-content: space-around;
-  margin: 0 auto;
+  margin: 10px auto;
   width: 95%;
 }
 
@@ -38,5 +38,15 @@ button {
 }
 
 .card {
+  background-color: var(--primary);
   display: flex;
+}
+
+.genres {
+  background-color: var(--secondary);
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
 }

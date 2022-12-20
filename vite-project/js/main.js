@@ -16,14 +16,14 @@ music.forEach((album) => {
   let html = `
   <div class="card">
   <img class="album-cover" src="${album.cover}" alt="This is the music">
-  <p class="description">This is ${album.title} by ${album.artist}. It was released in the year ${album.year} and it is ${album.runtime} minutes long.</p>
+  <h2 class="description">This is ${album.title} by ${album.artist}. It was released in the year ${album.year} and it is ${album.runtime} minutes long.</h2>
   </div>
 `;
   album.genre.forEach((genre) => {
-    let newEl = `<p>${genre}</p>`;
+    let newEl = `<p class="genres">${genre}</p>`;
     return (html += newEl);
   });
-  DOM.app.insertAdjacentHTML("afterbegin", html);
+  DOM.app.insertAdjacentHTML("beforeend", html);
 });
 
 music

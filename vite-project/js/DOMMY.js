@@ -1,5 +1,3 @@
-import { music } from "./albums";
-
 export const DOM = {
   title: document.querySelectorAll(`.description`),
   artist: document.querySelectorAll(`.description`),
