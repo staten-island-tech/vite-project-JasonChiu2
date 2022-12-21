@@ -1,9 +1,9 @@
 export const DOM = {
-  title: document.querySelectorAll(`.description`),
-  artist: document.querySelectorAll(`.description`),
-  year: document.querySelectorAll(`.description`),
-  cover: document.querySelectorAll(`.album-cover`),
-  runtime: document.querySelectorAll(`.description`),
-  genre: document.querySelectorAll(`.description`),
+  theme: document.querySelector(`.change`),
   app: document.querySelector(`#app`),
+  everything: document.querySelector(".everything"),
+  ten: document.querySelector(".ten"),
+  recent: document.querySelector(".recent"),
+  hour: document.querySelector(".hour"),
+  lofi: document.querySelector(".lo-fi"),
 };

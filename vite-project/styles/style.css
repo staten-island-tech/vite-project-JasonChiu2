@@ -40,13 +40,38 @@ button {
 .card {
   background-color: var(--primary);
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: solid;
+  width: 50%;
 }
 
 .genres {
   background-color: var(--secondary);
+  margin-left: 2px;
+  margin-right: 2px;
 }
 
 #app {
   display: flex;
   flex-direction: column;
+  width: 50%;
+}
+
+.album-cover {
+  float: left;
+  width: 70%;
+  height: 70%;
+  object-fit: cover;
+  margin: 7px;
+}
+
+.description {
+  text-align: center;
+}
+
+body {
+  background-image: linear-gradient(var(--secondary), var(--primary));
 }
