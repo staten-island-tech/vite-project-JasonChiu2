@@ -25,7 +25,7 @@ const musicHour = music
   .map((album) => album);
 
 const musicLoFi = music
-  .filter((album) => album.genre.includes("lo-fi"))
+  .filter((album) => album.genre.includes("Lo-Fi"))
   .map((album) => album);
 
 music.forEach((album) => {

@@ -5,7 +5,7 @@ export const music = [
     year: 1998,
     runtime: 39.55,
     cover: `https://upload.wikimedia.org/wikipedia/en/8/83/In_the_aeroplane_over_the_sea_album_cover_copy.jpg`,
-    genre: [`indie rock`, `psychedelic folk`, `lo-fi`],
+    genre: [`Indie Rock`, `Psychedelic folk`, `Lo-Fi`],
     ten: true,
   },
   {
@@ -14,7 +14,7 @@ export const music = [
     year: 2011,
     runtime: 60.26,
     cover: `https://upload.wikimedia.org/wikipedia/en/e/e0/Twin_fantasy.jpg`,
-    genre: [`indie rock`, `lo-fi`, `alternative rock`],
+    genre: [`Indie Rock`, `Lo-Fi`, `Alternative Rock`],
     ten: false,
   },
   {
@@ -23,7 +23,7 @@ export const music = [
     year: 1991,
     runtime: 48.31,
     cover: `https://upload.wikimedia.org/wikipedia/en/4/4b/My_Bloody_Valentine_-_Loveless.png?20170328161417`,
-    genre: [`shoegaze`, `dream pop`, `noise rock`, `avant-rock`],
+    genre: [`Shoegaze`, `Dream Pop`, `Noise Rock`, `Avant-Rock`],
     ten: true,
   },
   {
@@ -32,7 +32,7 @@ export const music = [
     year: 1996,
     runtime: 34.36,
     cover: `https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/Pinkerton_cover.jpg/220px-Pinkerton_cover.jpg`,
-    genre: [`alternative rock`, `power pop`, `emo`, `pop punk`, `lo-fi`],
+    genre: [`Alternative Rock`, `Power Pop`, `Emo`, `Pop Punk`, `Lo-Fi`],
     ten: true,
   },
   {
@@ -41,7 +41,7 @@ export const music = [
     year: 2022,
     runtime: 58.46,
     cover: `https://upload.wikimedia.org/wikipedia/en/thumb/d/d7/Ants_from_Up_There_-_Black_Country%2C_New_Road.jpg/220px-Ants_from_Up_There_-_Black_Country%2C_New_Road.jpg`,
-    genre: [`post-rock`, `chamber pop`, `art rock`],
+    genre: [`Post-Rock`, `Chamber Pop`, `Art Rock`],
     ten: false,
   },
   {
@@ -50,7 +50,7 @@ export const music = [
     year: 2000,
     runtime: 87.21,
     cover: `https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Liftyrskinnyfists.jpg/220px-Liftyrskinnyfists.jpg`,
-    genre: [`post-rock`],
+    genre: [`Post-Rock`],
     ten: false,
   },
   {
@@ -60,11 +60,11 @@ export const music = [
     runtime: 85.04,
     cover: `https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Have_a_nice_life_deathconsciousness.jpg/220px-Have_a_nice_life_deathconsciousness.jpg`,
     genre: [
-      `shoegaze`,
-      `post-rock`,
-      `dark ambient`,
-      `gothic rock`,
-      `industrial rock`,
+      `Shoegaze`,
+      `Post-Rock`,
+      `Dark Ambient`,
+      `Gothic Rock`,
+      `Industrial Rock`,
     ],
     ten: false,
   },
@@ -74,7 +74,7 @@ export const music = [
     year: 1966,
     runtime: 35.57,
     cover: `https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/PetSoundsCover.jpg/220px-PetSoundsCover.jpg`,
-    genre: [`progressive pop`, `chamber pop`, `psychedelic pop`, `art rock`],
+    genre: [`Progressive Pop`, `Chamber Pop`, `Psychedelic Pop`, `Art Rock`],
     ten: true,
   },
   {
@@ -83,7 +83,7 @@ export const music = [
     year: 1986,
     runtime: 36.48,
     cover: `https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/The-Queen-is-Dead-cover.png/220px-The-Queen-is-Dead-cover.png`,
-    genre: [`indie pop`, `alternative rock`, `indie rock`, `post-punk`],
+    genre: [`Indie Pop`, `Alternative Rock`, `Indie Rock`, `Post-Punk`],
     ten: true,
   },
   {
@@ -92,7 +92,7 @@ export const music = [
     year: 2019,
     runtime: 39.43,
     cover: `https://upload.wikimedia.org/wikipedia/en/5/51/Igor_-_Tyler%2C_the_Creator.jpg`,
-    genre: [`hip hop`, `funk`, `R&B`, `neo soul`],
+    genre: [`Hip Hop`, `Funk`, `R&B`, `Neo Soul`],
     ten: false,
   },
   {
@@ -101,7 +101,7 @@ export const music = [
     year: 1979,
     runtime: 39.53,
     cover: `https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Entertainment%21.jpg/220px-Entertainment%21.jpg`,
-    genre: [`post-punk`, `dance-punk`, `art punk`],
+    genre: [`Post-Punk`, `Dance-Punk`, `Art Punk`],
     ten: false,
   },
   {
@@ -110,7 +110,7 @@ export const music = [
     year: 1991,
     runtime: 39.31,
     cover: `https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Slint_-_Spiderland.jpg/220px-Slint_-_Spiderland.jpg`,
-    genre: [`post-hardcore`, `post-rock`, `math rock`],
+    genre: [`Post-Hardcore`, `Post-Rock`, `Math Rock`],
     ten: true,
   },
 ];
