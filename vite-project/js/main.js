@@ -35,7 +35,7 @@ music.forEach((album) => {
   <h2 class="description">This is ${album.title} by ${album.artist}. It was released in the year ${album.year} and it is ${album.runtime} minutes long.</h2>
 `;
   album.genre.forEach((genre) => {
-    let newEl = `<p class="genres">${genre}</p>`;
+    let newEl = `<h4 class="genres">${genre}</h4>`;
     return (html += newEl);
   });
   html += `</div>`;
@@ -51,7 +51,7 @@ DOM.everything.addEventListener("click", function () {
       <h2 class="description">This is ${album.title} by ${album.artist}. It was released in the year ${album.year} and it is ${album.runtime} minutes long.</h2>
     `;
     album.genre.forEach((genre) => {
-      let newEl = `<p class="genres">${genre}</p>`;
+      let newEl = `<h4 class="genres">${genre}</h4>`;
       return (html += newEl);
     });
     html += `</div>`;
@@ -68,7 +68,7 @@ DOM.ten.addEventListener("click", function () {
       <h2 class="description">This is ${album.title} by ${album.artist}. It was released in the year ${album.year} and it is ${album.runtime} minutes long.</h2>
     `;
     album.genre.forEach((genre) => {
-      let newEl = `<p class="genres">${genre}</p>`;
+      let newEl = `<h4 class="genres">${genre}</h4>`;
       return (html += newEl);
     });
     html += `</div>`;
@@ -85,7 +85,7 @@ DOM.recent.addEventListener("click", function () {
       <h2 class="description">This is ${album.title} by ${album.artist}. It was released in the year ${album.year} and it is ${album.runtime} minutes long.</h2>
     `;
     album.genre.forEach((genre) => {
-      let newEl = `<p class="genres">${genre}</p>`;
+      let newEl = `<h4 class="genres">${genre}</h4>`;
       return (html += newEl);
     });
     html += `</div>`;
@@ -102,7 +102,7 @@ DOM.hour.addEventListener("click", function () {
       <h2 class="description">This is ${album.title} by ${album.artist}. It was released in the year ${album.year} and it is ${album.runtime} minutes long.</h2>
     `;
     album.genre.forEach((genre) => {
-      let newEl = `<p class="genres">${genre}</p>`;
+      let newEl = `<h4 class="genres">${genre}</h4>`;
       return (html += newEl);
     });
     html += `</div>`;
@@ -119,7 +119,7 @@ DOM.lofi.addEventListener("click", function () {
       <h2 class="description">This is ${album.title} by ${album.artist}. It was released in the year ${album.year} and it is ${album.runtime} minutes long.</h2>
     `;
     album.genre.forEach((genre) => {
-      let newEl = `<p class="genres">${genre}</p>`;
+      let newEl = `<h4 class="genres">${genre}</h4>`;
       return (html += newEl);
     });
     html += `</div>`;

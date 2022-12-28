@@ -1,5 +1,5 @@
 export const DOM = {
-  theme: document.querySelector(`.change`),
+  theme: document.querySelector(`.theme`),
   app: document.querySelector(`#app`),
   everything: document.querySelector(".everything"),
   ten: document.querySelector(".ten"),

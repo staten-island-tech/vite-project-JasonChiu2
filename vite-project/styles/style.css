@@ -6,6 +6,41 @@
 
   --primary: var(--light-blue);
   --secondary: var(--dark-blue);
+
+  --h1: 4.209rem;
+  --h2: 3.157rem;
+  --h3: 2.369rem;
+  --h4: 1.777rem;
+  --h5: 1.333rem;
+}
+
+html,
+body,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: var(--h1);
+}
+
+h2 {
+  font-size: var(--h2);
+}
+
+h3 {
+  font-size: var(--h3);
+}
+
+h4 {
+  font-size: var(--h4);
+}
+
+h5 {
+  font-size: var(--h5);
 }
 
 .warm {
@@ -21,71 +56,79 @@
 .header {
   background-color: var(--primary);
   text-align: center;
-}
-
-.options {
-  background-color: var(--secondary);
-  text-align: center;
-  display: flex;
-  justify-content: space-around;
-  margin: 10px auto;
-  width: 95%;
-}
-
-button {
-  width: 100%;
-  margin: 5px;
+  transition: 0.2s;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 .card {
-  background-color: var(--primary);
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  border: solid;
-  width: 30%;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 29%;
+  height: 72rem;
+  margin: 1rem auto;
+  background-color: var(--primary);
+  align-items: center;
+  transition: 0.2s;
+  border-radius: 10px;
 }
 
 .genres {
-  background-color: var(--secondary);
-  margin-left: 2px;
-  margin-right: 2px;
+  margin: 10px;
 }
 
 #app {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 90vw;
+  margin: 0 auto;
+  margin-top: 3rem;
 }
 
 .album-cover {
   float: left;
-  width: 70%;
-  height: 70%;
-  object-fit: cover;
-  margin: 7px;
+  height: 40%;
+  object-fit: contain;
   box-shadow: 0px 0px 15px;
+  margin-top: 15px;
 }
 
 .description {
   text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.options {
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 body {
-  background-image: linear-gradient(var(--secondary), var(--primary));
+  background-color: var(--secondary);
+  transition: 0.2s;
 }
 
-button {
-  background-color: seagreen;
-  transition: 0.2s;
+.options-button {
+  background-color: var(--primary);
   padding: 5px;
   border-radius: 10px;
-  border: 2px solid;
-  margin-left: 7px;
-  margin-right: 7px;
+  width: 10%;
+  transition: 0.2s;
+  margin-left: 3px;
+  margin-right: 3px;
+  font-size: 1.777rem;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
-button:hover {
+.options-button:hover {
   scale: 1.05;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
 }
